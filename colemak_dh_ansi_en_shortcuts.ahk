@@ -36,40 +36,6 @@ m::h
 CapsLock::backspace
 
 
-; Run sleep system with Win+Pause
-
-#Pause::Run C:\win_sleep_shortcut.lnk
-
-
-; Polish characters
-
-; ł
-<!+u::Send {U+0141}
-<!u::Send {U+0142}
-<^>!+u::Send {U+0141}
-<^>!u::Send {U+0142}
-; ń
-<!+j::Send {U+0143}
-<!j::Send {U+0144}
-<^>!+j::Send {U+0143}
-<^>!j::Send {U+0144}
-; ó
-<!+SC027::Send {U+00D3}
-<!SC027::Send {U+00F3}
-<^>!+SC027::Send {U+00D3}
-<^>!SC027::Send {U+00F3}
-; ę
-<!+k::Send {U+0118}
-<!k::Send {U+0119}
-<^>!+k::Send {U+0118}
-<^>!k::Send {U+0119}
-; ś
-<!+d::Send {U+015A}
-<!d::Send {U+015B}
-<^>!+d::Send {U+015A}
-<^>!d::Send {U+015B}
-
-
 ; QWERTY shortuts
 
 ; Ctrl
