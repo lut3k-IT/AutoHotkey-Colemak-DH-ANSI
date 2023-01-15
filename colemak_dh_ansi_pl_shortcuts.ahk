@@ -36,11 +36,6 @@ m::h
 CapsLock::backspace
 
 
-; Run sleep system with Win+Pause
-
-#Pause::Run C:\win_sleep_shortcut.lnk
-
-
 ; Polish characters
 
 ; ł
