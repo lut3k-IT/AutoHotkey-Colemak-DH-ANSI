@@ -8,6 +8,10 @@ This is my setup for AutoHotkey for the Colemak DH keyboard layout for the ANSI 
 - Caps Lock as Backspace
 - Shortcuts from QWERTY
 
+## Visualisation
+
+![colemak_dh](https://user-images.githubusercontent.com/78684171/212556752-fbd3456f-9988-4f22-a526-850a689ee9b7.png)
+
 ## How to modify on your own
 
 Official documentation: <br>
