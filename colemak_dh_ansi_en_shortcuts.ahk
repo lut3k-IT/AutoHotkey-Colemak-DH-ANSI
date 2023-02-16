@@ -31,6 +31,11 @@ n::m
 m::h
 
 
+; Removes entire word when holding Shift key
+
++CapsLock::^backspace
+
+
 ; Set Backspace to CapsLock key
 
 CapsLock::backspace
