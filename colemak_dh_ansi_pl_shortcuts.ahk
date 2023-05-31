@@ -1,7 +1,5 @@
 ; Colemak Mod-DH mapping for ANSI boards
 
-q::q
-w::w
 e::f
 r::p
 t::b
@@ -11,37 +9,22 @@ i::u
 o::y
 p::;
 
-a::a
 s::r
 d::s
 f::t
-g::g
 h::k
 j::n
 k::e
 l::i
 SC027::o
 
-z::z
-x::x
-c::c
 v::d
 b::v
 n::m
 m::h
 
 
-; Removes entire word when holding Shift key
-
-+CapsLock::^backspace
-
-
-; Set Backspace to CapsLock key
-
-CapsLock::backspace
-
-
-; Polish characters
+; Polish characters on both alt keys
 
 ; ł
 <!+u::Send {U+0141}
@@ -68,14 +51,32 @@ CapsLock::backspace
 <!d::Send {U+015B}
 <^>!+d::Send {U+015A}
 <^>!d::Send {U+015B}
+; ć
+<!+c::Send {U+0106}
+<!c::Send {U+0107}
+<^>!+c::Send {U+0106}
+<^>!c::Send {U+0107}
+; ą
+<!+a::Send {U+0104}
+<!a::Send {U+0105}
+<^>!+a::Send {U+0104}
+<^>!a::Send {U+0105}
+; ż
+<!+z::Send {U+017B}
+<!z::Send {U+017C}
+<^>!+z::Send {U+017B}
+<^>!z::Send {U+017C}
+; ź
+<!+x::Send {U+0179}
+<!x::Send {U+017A}
+<^>!+x::Send {U+0179}
+<^>!x::Send {U+017A}
 
 
 ; QWERTY shortuts
 
 ; Ctrl
 
-<^q::<^q
-<^w::<^w
 <^e::<^e
 <^r::<^r
 <^t::<^t
@@ -84,18 +85,13 @@ CapsLock::backspace
 <^i::<^i
 <^o::<^o
 <^p::<^p
-<^a::<^a
 <^s::<^s
 <^d::<^d
 <^f::<^f
-<^g::<^g
 <^h::<^h
 <^j::<^j
 <^k::<^k
 <^l::<^l
-<^z::<^z
-<^x::<^x
-<^c::<^c
 <^v::<^v
 <^b::<^b
 <^n::<^n
@@ -103,8 +99,6 @@ CapsLock::backspace
 
 ; Alt
 
-!q::!q
-!w::!w
 !e::!e
 !r::!r
 !t::!t
@@ -113,18 +107,13 @@ CapsLock::backspace
 !i::!i
 !o::!o
 !p::!p
-!a::!a
 !s::!s
 !d::!d
 !f::!f
-!g::!g
 !h::!h
 !j::!j
 !k::!k
 !l::!l
-!z::!z
-!x::!x
-!c::!c
 !v::!v
 !b::!b
 !n::!n
@@ -132,8 +121,6 @@ CapsLock::backspace
 
 ; Win
 
-#q::#q
-#w::#w
 #e::#e
 #r::#r
 #t::#t
@@ -142,28 +129,20 @@ CapsLock::backspace
 #i::#i
 #o::#o
 #p::#p
-#a::#a
 #s::#s
 #d::#d
 #f::#f
-#g::#g
 #h::#h
 #j::#j
 #k::#k
 #l::#l
-#z::#z
-#x::#x
-#c::#c
 #v::#v
 #b::#b
 #n::#n
 #m::#m
 
-
 ; Ctrl + Shift
 
-<^+q::<^+q
-<^+w::<^+w
 <^+e::<^+e
 <^+r::<^+r
 <^+t::<^+t
@@ -172,28 +151,20 @@ CapsLock::backspace
 <^+i::<^+i
 <^+o::<^+o
 <^+p::<^+p
-<^+a::<^+a
 <^+s::<^+s
 <^+d::<^+d
 <^+f::<^+f
-<^+g::<^+g
 <^+h::<^+h
 <^+j::<^+j
 <^+k::<^+k
 <^+l::<^+l
-<^+z::<^+z
-<^+x::<^+x
-<^+c::<^+c
 <^+v::<^+v
 <^+b::<^+b
 <^+n::<^+n
 <^+m::<^+m
 
-
 ; Ctrl + Win
 
-<^#q::<^#q
-<^#w::<^#w
 <^#e::<^#e
 <^#r::<^#r
 <^#t::<^#t
@@ -202,28 +173,20 @@ CapsLock::backspace
 <^#i::<^#i
 <^#o::<^#o
 <^#p::<^#p
-<^#a::<^#a
 <^#s::<^#s
 <^#d::<^#d
 <^#f::<^#f
-<^#g::<^#g
 <^#h::<^#h
 <^#j::<^#j
 <^#k::<^#k
 <^#l::<^#l
-<^#z::<^#z
-<^#x::<^#x
-<^#c::<^#c
 <^#v::<^#v
 <^#b::<^#b
 <^#n::<^#n
 <^#m::<^#m
 
-
 ; Ctrl + Alt
 
-<^!q::<^!q
-<^!w::<^!w
 <^!e::<^!e
 <^!r::<^!r
 <^!t::<^!t
@@ -232,28 +195,20 @@ CapsLock::backspace
 <^!i::<^!i
 <^!o::<^!o
 <^!p::<^!p
-<^!a::<^!a
 <^!s::<^!s
 <^!d::<^!d
 <^!f::<^!f
-<^!g::<^!g
 <^!h::<^!h
 <^!j::<^!j
 <^!k::<^!k
 <^!l::<^!l
-<^!z::<^!z
-<^!x::<^!x
-<^!c::<^!c
 <^!v::<^!v
 <^!b::<^!b
 <^!n::<^!n
 <^!m::<^!m
 
-
 ; Win + Shift
 
-#+q::#+q
-#+w::#+w
 #+e::#+e
 #+r::#+r
 #+t::#+t
@@ -262,28 +217,20 @@ CapsLock::backspace
 #+i::#+i
 #+o::#+o
 #+p::#+p
-#+a::#+a
 #+s::#+s
 #+d::#+d
 #+f::#+f
-#+g::#+g
 #+h::#+h
 #+j::#+j
 #+k::#+k
 #+l::#+l
-#+z::#+z
-#+x::#+x
-#+c::#+c
 #+v::#+v
 #+b::#+b
 #+n::#+n
 #+m::#+m
 
-
 ; Win + Alt
 
-#!q::#!q
-#!w::#!w
 #!e::#!e
 #!r::#!r
 #!t::#!t
@@ -292,28 +239,20 @@ CapsLock::backspace
 #!i::#!i
 #!o::#!o
 #!p::#!p
-#!a::#!a
 #!s::#!s
 #!d::#!d
 #!f::#!f
-#!g::#!g
 #!h::#!h
 #!j::#!j
 #!k::#!k
 #!l::#!l
-#!z::#!z
-#!x::#!x
-#!c::#!c
 #!v::#!v
 #!b::#!b
 #!n::#!n
 #!m::#!m
 
-
 ; Alt + Shift
 
-!+q::!+q
-!+w::!+w
 !+e::!+e
 !+r::!+r
 !+t::!+t
@@ -322,18 +261,13 @@ CapsLock::backspace
 !+i::!+i
 !+o::!+o
 !+p::!+p
-!+a::!+a
 !+s::!+s
 !+d::!+d
 !+f::!+f
-!+g::!+g
 !+h::!+h
 !+j::!+j
 !+k::!+k
 !+l::!+l
-!+z::!+z
-!+x::!+x
-!+c::!+c
 !+v::!+v
 !+b::!+b
 !+n::!+n
