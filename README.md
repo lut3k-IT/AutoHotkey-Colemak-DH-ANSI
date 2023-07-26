@@ -1,12 +1,13 @@
 # Colemak DH ANSI settings for AutoHotkey
 
-This is my setup for AutoHotkey for the Colemak DH keyboard layout for the ANSI keyboard type. I am using the keyboard shortcuts from the QWERTY layout here. I also provide a Polish version.
+Here's my custom AutoHotkey setup tailored for the Colemak DH keyboard layout on an ANSI keyboard type. I've incorporated QWERTY layout shortcuts for added convenience. I'm also offering a Polish version with polish characters.
 
 ## Features
 
 - Polish characters (in pl version)
-- Caps Lock as Backspace
 - Shortcuts from QWERTY
+- Caps Lock taking over the Backspace function
+- Moving the cursor in a text field using keyboard shortcuts
 
 ## Visualisation
 
