@@ -1,6 +1,6 @@
 # Colemak DH ANSI settings for AutoHotkey
 
-Here's my custom AutoHotkey setup tailored for the Colemak DH keyboard layout on an ANSI keyboard type. I've incorporated QWERTY layout shortcuts for added convenience. I'm also offering a Polish version with polish characters.
+Here's my custom AutoHotkey setup tailored for the Colemak DH keyboard layout on an ANSI keyboard type. I've incorporated QWERTY layout shortcuts for added convenience. I'm also offering a Polish version with Polish characters.
 
 ## Features
 
