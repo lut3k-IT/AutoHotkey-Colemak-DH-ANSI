@@ -8,6 +8,7 @@ Here's my custom AutoHotkey setup tailored for the Colemak DH keyboard layout on
 - Shortcuts from QWERTY
 - Caps Lock taking over the Backspace function
 - Moving the cursor in a text field using keyboard shortcuts
+- Shortcuts for EM (—) and EN (–) dashes
 
 ## Visualisation
 
