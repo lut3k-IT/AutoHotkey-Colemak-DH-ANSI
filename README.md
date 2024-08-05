@@ -22,12 +22,12 @@ remapping keys 🔗 https://www.autohotkey.com/docs/v1/misc/Remap.htm <br>
 
 ### Basic AutoHotkey syntax
 
-(;) Comment - works only for one line <br>
-(#) Windows key <br>
-(!) Alt key <br>
-(^) Ctrl key <br>
-(+) Shift key <br>
+`;`: Comment (works only for one line) <br>
+`#`: Windows key <br>
+`!`: Alt key <br>
+`^`: Ctrl key <br>
+`+`: Shift key <br>
 
-(<) Left key of the pair, E.g. (<^) is left control key <br>
-(>) Right key of the pair <br>
-(<^>!) AltGr <br>
+`<`: Left key of the pair — E.g. `<^` is left control key <br>
+`>`: Right key of the pair <br>
+`<^>!`: AltGr <br>
